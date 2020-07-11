@@ -3,14 +3,14 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>WebServis-011-POST-GET-Ornegi</groupId>
-    <artifactId>WebServis-011-POST-GET-Ornegi</artifactId>
+    <groupId>WebServis-011-DELETE-PUT-Ornegi</groupId>
+    <artifactId>WebServis-011-DELETE-PUT-Ornegi</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>WebServis-011-POST-GET-Ornegi</name>
+    <name>WebServis-011-DELETE-PUT-Ornegi</name>
 
     <build>
-        <finalName>WebServis-011-POST-GET-Ornegi</finalName>
+        <finalName>WebServis-011-DELETE-PUT-Ornegi</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -47,10 +47,12 @@
             <groupId>org.glassfish.jersey.inject</groupId>
             <artifactId>jersey-hk2</artifactId>
         </dependency>
-         <dependency>
+        
+        <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-json-binding</artifactId>
         </dependency>
+        
     </dependencies>
     <properties>
         <jersey.version>3.0.0-M1</jersey.version>
